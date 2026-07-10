@@ -1,48 +1,1170 @@
 [
-    {
-      "codigoTicket": "TK-84291",
-      "fecha": "2025-04-15",
-      "cliente": { "nombre": "Juan Pérez", "correo": "juan@mail.com" },
-      "productos": [
-        { "codigo": "CON-01", "nombre": "Morat Cúcuta En Vivo", "precio": 180000, "cantidad": 2 }
-      ],
-      "total": 360000
+  {
+    "codigoTicket": "TK-84291",
+    "fecha": "2025-04-15",
+    "cliente": {
+      "nombre": "Juan Pérez",
+      "correo": "juan@mail.com"
     },
-    {
-      "codigoTicket": "TK-31048",
-      "fecha": "2025-11-22",
-      "cliente": { "nombre": "Diana Celis", "correo": "diana@mail.com" },
-      "productos": [
-        { "codigo": "CON-02", "nombre": "Rock Fest Bogotá", "precio": 250000, "cantidad": 3 }
-      ],
-      "total": 750000
+    "productos": [
+      {
+        "codigo": "CON-01",
+        "nombre": "Morat Cúcuta En Vivo",
+        "precio": 180000,
+        "cantidad": 2
+      }
+    ],
+    "total": 360000
+  },
+  {
+    "codigoTicket": "TK-31048",
+    "fecha": "2025-11-22",
+    "cliente": {
+      "nombre": "Diana Celis",
+      "correo": "diana@mail.com"
     },
-    {
-      "codigoTicket": "TK-19542",
-      "fecha": "2026-02-10",
-      "cliente": { "nombre": "Carlos Mendoza", "correo": "carlos@mail.com" },
-      "productos": [
-        { "codigo": "CON-01", "nombre": "Morat Cúcuta En Vivo", "precio": 180000, "cantidad": 1 },
-        { "codigo": "CON-03", "nombre": "Nasa Histoires Teatro", "precio": 90000, "cantidad": 2 }
-      ],
-      "total": 360000
+    "productos": [
+      {
+        "codigo": "CON-02",
+        "nombre": "Rock Fest Bogotá",
+        "precio": 250000,
+        "cantidad": 3
+      }
+    ],
+    "total": 750000
+  },
+  {
+    "codigoTicket": "TK-19542",
+    "fecha": "2026-02-10",
+    "cliente": {
+      "nombre": "Carlos Mendoza",
+      "correo": "carlos@mail.com"
     },
-    {
-      "codigoTicket": "TK-75612",
-      "fecha": "2026-05-18",
-      "cliente": { "nombre": "Laura Restrepo", "correo": "laura@mail.com" },
-      "productos": [
-        { "codigo": "CON-02", "nombre": "Rock Fest Bogotá", "precio": 250000, "cantidad": 2 }
-      ],
-      "total": 500000
+    "productos": [
+      {
+        "codigo": "CON-01",
+        "nombre": "Morat Cúcuta En Vivo",
+        "precio": 180000,
+        "cantidad": 1
+      },
+      {
+        "codigo": "CON-03",
+        "nombre": "Nasa Histoires Teatro",
+        "precio": 90000,
+        "cantidad": 2
+      }
+    ],
+    "total": 360000
+  },
+  {
+    "codigoTicket": "TK-75612",
+    "fecha": "2026-05-18",
+    "cliente": {
+      "nombre": "Laura Restrepo",
+      "correo": "laura@mail.com"
     },
-    {
-      "codigoTicket": "TK-94123",
-      "fecha": "2026-07-05",
-      "cliente": { "nombre": "Andrés Silva", "correo": "andres@mail.com" },
-      "productos": [
-        { "codigo": "CON-03", "nombre": "Nasa Histoires Teatro", "precio": 90000, "cantidad": 4 }
-      ],
-      "total": 360000
-    }
-  ]
+    "productos": [
+      {
+        "codigo": "CON-02",
+        "nombre": "Rock Fest Bogotá",
+        "precio": 250000,
+        "cantidad": 2
+      }
+    ],
+    "total": 500000
+  },
+  {
+    "codigoTicket": "TK-94123",
+    "fecha": "2026-07-05",
+    "cliente": {
+      "nombre": "Andrés Silva",
+      "correo": "andres@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-03",
+        "nombre": "Nasa Histoires Teatro",
+        "precio": 90000,
+        "cantidad": 4
+      }
+    ],
+    "total": 360000
+  },
+  {
+    "codigoTicket": "TK-58214",
+    "fecha": "2025-01-12",
+    "cliente": {
+      "nombre": "María González",
+      "correo": "maria@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-04",
+        "nombre": "Festival Vallenato",
+        "precio": 120000,
+        "cantidad": 2
+      }
+    ],
+    "total": 240000
+  },
+  {
+    "codigoTicket": "TK-71258",
+    "fecha": "2025-02-08",
+    "cliente": {
+      "nombre": "Luis Ramírez",
+      "correo": "luis@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-05",
+        "nombre": "Stand Up Comedy Night",
+        "precio": 80000,
+        "cantidad": 3
+      }
+    ],
+    "total": 240000
+  },
+  {
+    "codigoTicket": "TK-90481",
+    "fecha": "2025-03-20",
+    "cliente": {
+      "nombre": "Valentina Torres",
+      "correo": "vale@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-06",
+        "nombre": "Festival Electrónico",
+        "precio": 210000,
+        "cantidad": 2
+      }
+    ],
+    "total": 420000
+  },
+  {
+    "codigoTicket": "TK-34562",
+    "fecha": "2025-05-06",
+    "cliente": {
+      "nombre": "Jorge Herrera",
+      "correo": "jorge@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-01",
+        "nombre": "Morat Cúcuta En Vivo",
+        "precio": 180000,
+        "cantidad": 4
+      }
+    ],
+    "total": 720000
+  },
+  {
+    "codigoTicket": "TK-63895",
+    "fecha": "2025-06-18",
+    "cliente": {
+      "nombre": "Camila Suárez",
+      "correo": "camila@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-07",
+        "nombre": "Festival del Café",
+        "precio": 95000,
+        "cantidad": 5
+      }
+    ],
+    "total": 475000
+  },
+  {
+    "codigoTicket": "TK-15624",
+    "fecha": "2025-07-09",
+    "cliente": {
+      "nombre": "Felipe Moreno",
+      "correo": "felipe@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-02",
+        "nombre": "Rock Fest Bogotá",
+        "precio": 250000,
+        "cantidad": 2
+      }
+    ],
+    "total": 500000
+  },
+  {
+    "codigoTicket": "TK-82954",
+    "fecha": "2025-08-14",
+    "cliente": {
+      "nombre": "Paula Díaz",
+      "correo": "paula@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-08",
+        "nombre": "Festival de Jazz",
+        "precio": 140000,
+        "cantidad": 2
+      }
+    ],
+    "total": 280000
+  },
+  {
+    "codigoTicket": "TK-42176",
+    "fecha": "2025-09-27",
+    "cliente": {
+      "nombre": "Miguel Castro",
+      "correo": "miguel@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-03",
+        "nombre": "Nasa Histoires Teatro",
+        "precio": 90000,
+        "cantidad": 6
+      }
+    ],
+    "total": 540000
+  },
+  {
+    "codigoTicket": "TK-68712",
+    "fecha": "2025-10-11",
+    "cliente": {
+      "nombre": "Sara López",
+      "correo": "sara@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-09",
+        "nombre": "Concierto Sinfónico",
+        "precio": 160000,
+        "cantidad": 3
+      }
+    ],
+    "total": 480000
+  },
+  {
+    "codigoTicket": "TK-91243",
+    "fecha": "2025-12-03",
+    "cliente": {
+      "nombre": "Daniel Rojas",
+      "correo": "daniel@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-10",
+        "nombre": "Festival Navideño",
+        "precio": 110000,
+        "cantidad": 4
+      }
+    ],
+    "total": 440000
+  },
+  {
+    "codigoTicket": "TK-26318",
+    "fecha": "2026-01-15",
+    "cliente": {
+      "nombre": "Natalia Romero",
+      "correo": "natalia@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-04",
+        "nombre": "Festival Vallenato",
+        "precio": 120000,
+        "cantidad": 3
+      }
+    ],
+    "total": 360000
+  },
+  {
+    "codigoTicket": "TK-54187",
+    "fecha": "2026-03-19",
+    "cliente": {
+      "nombre": "Sebastián Gómez",
+      "correo": "sebastian@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-06",
+        "nombre": "Festival Electrónico",
+        "precio": 210000,
+        "cantidad": 1
+      },
+      {
+        "codigo": "CON-09",
+        "nombre": "Concierto Sinfónico",
+        "precio": 160000,
+        "cantidad": 2
+      }
+    ],
+    "total": 530000
+  },
+  {
+    "codigoTicket": "TK-87416",
+    "fecha": "2026-04-25",
+    "cliente": {
+      "nombre": "Juliana Vega",
+      "correo": "juliana@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-07",
+        "nombre": "Festival del Café",
+        "precio": 95000,
+        "cantidad": 4
+      }
+    ],
+    "total": 380000
+  },
+  {
+    "codigoTicket": "TK-15872",
+    "fecha": "2026-08-10",
+    "cliente": {
+      "nombre": "Ricardo León",
+      "correo": "ricardo@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-08",
+        "nombre": "Festival de Jazz",
+        "precio": 140000,
+        "cantidad": 5
+      }
+    ],
+    "total": 700000
+  },
+  {
+    "codigoTicket": "TK-69435",
+    "fecha": "2026-10-29",
+    "cliente": {
+      "nombre": "Angélica Martínez",
+      "correo": "angelica@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-10",
+        "nombre": "Festival Navideño",
+        "precio": 110000,
+        "cantidad": 6
+      }
+    ],
+    "total": 660000
+  },
+  {
+    "codigoTicket": "TK-20250101",
+    "fecha": "2025-01-05",
+    "cliente": {
+      "nombre": "Ana Martínez",
+      "correo": "ana@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-01",
+        "nombre": "Morat Cúcuta En Vivo",
+        "precio": 180000,
+        "cantidad": 2
+      }
+    ],
+    "total": 360000
+  },
+  {
+    "codigoTicket": "TK-20250102",
+    "fecha": "2025-01-14",
+    "cliente": {
+      "nombre": "Pedro Castillo",
+      "correo": "pedro@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-02",
+        "nombre": "Rock Fest Bogotá",
+        "precio": 250000,
+        "cantidad": 1
+      }
+    ],
+    "total": 250000
+  },
+  {
+    "codigoTicket": "TK-20250103",
+    "fecha": "2025-01-27",
+    "cliente": {
+      "nombre": "Laura Pérez",
+      "correo": "laura@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-03",
+        "nombre": "Nasa Histoires Teatro",
+        "precio": 90000,
+        "cantidad": 3
+      }
+    ],
+    "total": 270000
+  },
+  {
+    "codigoTicket": "TK-20250201",
+    "fecha": "2025-02-06",
+    "cliente": {
+      "nombre": "Carlos Ruiz",
+      "correo": "carlos@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-04",
+        "nombre": "Festival Vallenato",
+        "precio": 120000,
+        "cantidad": 4
+      }
+    ],
+    "total": 480000
+  },
+  {
+    "codigoTicket": "TK-20250202",
+    "fecha": "2025-02-17",
+    "cliente": {
+      "nombre": "Sofía Ramírez",
+      "correo": "sofia@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-05",
+        "nombre": "Stand Up Comedy Night",
+        "precio": 80000,
+        "cantidad": 5
+      }
+    ],
+    "total": 400000
+  },
+  {
+    "codigoTicket": "TK-20250203",
+    "fecha": "2025-02-25",
+    "cliente": {
+      "nombre": "Miguel Torres",
+      "correo": "miguel@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-06",
+        "nombre": "Festival Electrónico",
+        "precio": 210000,
+        "cantidad": 2
+      }
+    ],
+    "total": 420000
+  },
+  {
+    "codigoTicket": "TK-20250301",
+    "fecha": "2025-03-08",
+    "cliente": {
+      "nombre": "Daniela Vargas",
+      "correo": "daniela@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-07",
+        "nombre": "Festival del Café",
+        "precio": 95000,
+        "cantidad": 6
+      }
+    ],
+    "total": 570000
+  },
+  {
+    "codigoTicket": "TK-20250302",
+    "fecha": "2025-03-19",
+    "cliente": {
+      "nombre": "Andrés López",
+      "correo": "andres@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-08",
+        "nombre": "Festival de Jazz",
+        "precio": 140000,
+        "cantidad": 3
+      }
+    ],
+    "total": 420000
+  },
+  {
+    "codigoTicket": "TK-20250303",
+    "fecha": "2025-03-29",
+    "cliente": {
+      "nombre": "Natalia Gómez",
+      "correo": "natalia@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-09",
+        "nombre": "Concierto Sinfónico",
+        "precio": 160000,
+        "cantidad": 2
+      }
+    ],
+    "total": 320000
+  },
+  {
+    "codigoTicket": "TK-20250401",
+    "fecha": "2025-04-07",
+    "cliente": {
+      "nombre": "Julián Herrera",
+      "correo": "julian@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-01",
+        "nombre": "Morat Cúcuta En Vivo",
+        "precio": 180000,
+        "cantidad": 5
+      }
+    ],
+    "total": 900000
+  },
+  {
+    "codigoTicket": "TK-20250402",
+    "fecha": "2025-04-16",
+    "cliente": {
+      "nombre": "Camila Rojas",
+      "correo": "camila@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-02",
+        "nombre": "Rock Fest Bogotá",
+        "precio": 250000,
+        "cantidad": 2
+      }
+    ],
+    "total": 500000
+  },
+  {
+    "codigoTicket": "TK-20250403",
+    "fecha": "2025-04-28",
+    "cliente": {
+      "nombre": "Felipe Díaz",
+      "correo": "felipe@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-03",
+        "nombre": "Nasa Histoires Teatro",
+        "precio": 90000,
+        "cantidad": 4
+      }
+    ],
+    "total": 360000
+  },
+  {
+    "codigoTicket": "TK-20250501",
+    "fecha": "2025-05-05",
+    "cliente": {
+      "nombre": "Mariana López",
+      "correo": "mariana@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-04",
+        "nombre": "Festival Vallenato",
+        "precio": 120000,
+        "cantidad": 3
+      }
+    ],
+    "total": 360000
+  },
+  {
+    "codigoTicket": "TK-20250502",
+    "fecha": "2025-05-18",
+    "cliente": {
+      "nombre": "Ricardo Pérez",
+      "correo": "ricardo@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-06",
+        "nombre": "Festival Electrónico",
+        "precio": 210000,
+        "cantidad": 2
+      }
+    ],
+    "total": 420000
+  },
+  {
+    "codigoTicket": "TK-20250503",
+    "fecha": "2025-05-26",
+    "cliente": {
+      "nombre": "Andrea Molina",
+      "correo": "andrea@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-07",
+        "nombre": "Festival del Café",
+        "precio": 95000,
+        "cantidad": 5
+      }
+    ],
+    "total": 475000
+  },
+  {
+    "codigoTicket": "TK-20250601",
+    "fecha": "2025-06-09",
+    "cliente": {
+      "nombre": "Santiago Moreno",
+      "correo": "santiago@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-08",
+        "nombre": "Festival de Jazz",
+        "precio": 140000,
+        "cantidad": 4
+      }
+    ],
+    "total": 560000
+  },
+  {
+    "codigoTicket": "TK-20250602",
+    "fecha": "2025-06-20",
+    "cliente": {
+      "nombre": "Valentina Castro",
+      "correo": "valentina@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-09",
+        "nombre": "Concierto Sinfónico",
+        "precio": 160000,
+        "cantidad": 3
+      }
+    ],
+    "total": 480000
+  },
+  {
+    "codigoTicket": "TK-20250603",
+    "fecha": "2025-06-30",
+    "cliente": {
+      "nombre": "Mateo Vargas",
+      "correo": "mateo@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-10",
+        "nombre": "Festival Navideño",
+        "precio": 110000,
+        "cantidad": 2
+      }
+    ],
+    "total": 220000
+  },
+  {
+    "codigoTicket": "TK-20250701",
+    "fecha": "2025-07-04",
+    "cliente": {
+      "nombre": "Laura Torres",
+      "correo": "laura.t@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-01",
+        "nombre": "Morat Cúcuta En Vivo",
+        "precio": 180000,
+        "cantidad": 3
+      }
+    ],
+    "total": 540000
+  },
+  {
+    "codigoTicket": "TK-20250702",
+    "fecha": "2025-07-15",
+    "cliente": {
+      "nombre": "Sebastián Ruiz",
+      "correo": "sebastian@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-02",
+        "nombre": "Rock Fest Bogotá",
+        "precio": 250000,
+        "cantidad": 3
+      }
+    ],
+    "total": 750000
+  },
+  {
+    "codigoTicket": "TK-20250703",
+    "fecha": "2025-07-24",
+    "cliente": {
+      "nombre": "Paola Sánchez",
+      "correo": "paola@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-05",
+        "nombre": "Stand Up Comedy Night",
+        "precio": 80000,
+        "cantidad": 6
+      }
+    ],
+    "total": 480000
+  },
+  {
+    "codigoTicket": "TK-20250801",
+    "fecha": "2025-08-08",
+    "cliente": {
+      "nombre": "Daniel Romero",
+      "correo": "daniel@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-03",
+        "nombre": "Nasa Histoires Teatro",
+        "precio": 90000,
+        "cantidad": 5
+      }
+    ],
+    "total": 450000
+  },
+  {
+    "codigoTicket": "TK-20250802",
+    "fecha": "2025-08-19",
+    "cliente": {
+      "nombre": "Carolina Vega",
+      "correo": "carolina@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-06",
+        "nombre": "Festival Electrónico",
+        "precio": 210000,
+        "cantidad": 3
+      }
+    ],
+    "total": 630000
+  },
+  {
+    "codigoTicket": "TK-20250803",
+    "fecha": "2025-08-27",
+    "cliente": {
+      "nombre": "Nicolás Ríos",
+      "correo": "nicolas@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-08",
+        "nombre": "Festival de Jazz",
+        "precio": 140000,
+        "cantidad": 2
+      }
+    ],
+    "total": 280000
+  },
+  {
+    "codigoTicket": "TK-20250901",
+    "fecha": "2025-09-06",
+    "cliente": {
+      "nombre": "María Fernández",
+      "correo": "mariaf@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-04",
+        "nombre": "Festival Vallenato",
+        "precio": 120000,
+        "cantidad": 5
+      }
+    ],
+    "total": 600000
+  },
+  {
+    "codigoTicket": "TK-20250902",
+    "fecha": "2025-09-17",
+    "cliente": {
+      "nombre": "Juan Carlos Díaz",
+      "correo": "juancarlos@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-09",
+        "nombre": "Concierto Sinfónico",
+        "precio": 160000,
+        "cantidad": 4
+      }
+    ],
+    "total": 640000
+  },
+  {
+    "codigoTicket": "TK-20250903",
+    "fecha": "2025-09-29",
+    "cliente": {
+      "nombre": "Luisa Martínez",
+      "correo": "luisa@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-10",
+        "nombre": "Festival Navideño",
+        "precio": 110000,
+        "cantidad": 7
+      }
+    ],
+    "total": 770000
+  },
+  {
+    "codigoTicket": "TK-20251001",
+    "fecha": "2025-10-03",
+    "cliente": {
+      "nombre": "David Rodríguez",
+      "correo": "david@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-01",
+        "nombre": "Morat Cúcuta En Vivo",
+        "precio": 180000,
+        "cantidad": 6
+      }
+    ],
+    "total": 1080000
+  },
+  {
+    "codigoTicket": "TK-20251002",
+    "fecha": "2025-10-14",
+    "cliente": {
+      "nombre": "Natalia Pérez",
+      "correo": "natalia.p@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-02",
+        "nombre": "Rock Fest Bogotá",
+        "precio": 250000,
+        "cantidad": 4
+      }
+    ],
+    "total": 1000000
+  },
+  {
+    "codigoTicket": "TK-20251003",
+    "fecha": "2025-10-25",
+    "cliente": {
+      "nombre": "Óscar Ramírez",
+      "correo": "oscar@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-07",
+        "nombre": "Festival del Café",
+        "precio": 95000,
+        "cantidad": 8
+      }
+    ],
+    "total": 760000
+  },
+  {
+    "codigoTicket": "TK-20251101",
+    "fecha": "2025-11-05",
+    "cliente": {
+      "nombre": "Camilo Herrera",
+      "correo": "camilo@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-03",
+        "nombre": "Nasa Histoires Teatro",
+        "precio": 90000,
+        "cantidad": 6
+      }
+    ],
+    "total": 540000
+  },
+  {
+    "codigoTicket": "TK-20251102",
+    "fecha": "2025-11-16",
+    "cliente": {
+      "nombre": "Sara González",
+      "correo": "sara@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-05",
+        "nombre": "Stand Up Comedy Night",
+        "precio": 80000,
+        "cantidad": 5
+      }
+    ],
+    "total": 400000
+  },
+  {
+    "codigoTicket": "TK-20251103",
+    "fecha": "2025-11-28",
+    "cliente": {
+      "nombre": "Mateo Silva",
+      "correo": "mateo.s@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-06",
+        "nombre": "Festival Electrónico",
+        "precio": 210000,
+        "cantidad": 3
+      }
+    ],
+    "total": 630000
+  },
+  {
+    "codigoTicket": "TK-20251201",
+    "fecha": "2025-12-04",
+    "cliente": {
+      "nombre": "Andrea Torres",
+      "correo": "andrea.t@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-08",
+        "nombre": "Festival de Jazz",
+        "precio": 140000,
+        "cantidad": 5
+      }
+    ],
+    "total": 700000
+  },
+  {
+    "codigoTicket": "TK-20251202",
+    "fecha": "2025-12-15",
+    "cliente": {
+      "nombre": "Felipe Castro",
+      "correo": "felipe.c@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-02",
+        "nombre": "Rock Fest Bogotá",
+        "precio": 250000,
+        "cantidad": 3
+      }
+    ],
+    "total": 750000
+  },
+  {
+    "codigoTicket": "TK-20251203",
+    "fecha": "2025-12-27",
+    "cliente": {
+      "nombre": "Valeria López",
+      "correo": "valeria@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-04",
+        "nombre": "Festival Vallenato",
+        "precio": 120000,
+        "cantidad": 4
+      }
+    ],
+    "total": 480000
+  },
+  {
+    "codigoTicket": "TK-20260101",
+    "fecha": "2026-01-06",
+    "cliente": {
+      "nombre": "Mariana Torres",
+      "correo": "mariana@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-01",
+        "nombre": "Morat Cúcuta En Vivo",
+        "precio": 180000,
+        "cantidad": 3
+      }
+    ],
+    "total": 540000
+  },
+  {
+    "codigoTicket": "TK-20260102",
+    "fecha": "2026-01-17",
+    "cliente": {
+      "nombre": "Juan Esteban Ruiz",
+      "correo": "juanruiz@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-02",
+        "nombre": "Rock Fest Bogotá",
+        "precio": 250000,
+        "cantidad": 2
+      }
+    ],
+    "total": 500000
+  },
+  {
+    "codigoTicket": "TK-20260103",
+    "fecha": "2026-01-28",
+    "cliente": {
+      "nombre": "Laura Mendoza",
+      "correo": "laura.m@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-03",
+        "nombre": "Nasa Histoires Teatro",
+        "precio": 90000,
+        "cantidad": 5
+      }
+    ],
+    "total": 450000
+  },
+  {
+    "codigoTicket": "TK-20260301",
+    "fecha": "2026-03-05",
+    "cliente": {
+      "nombre": "Carlos Ramírez",
+      "correo": "carlosr@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-04",
+        "nombre": "Festival Vallenato",
+        "precio": 120000,
+        "cantidad": 4
+      }
+    ],
+    "total": 480000
+  },
+  {
+    "codigoTicket": "TK-20260302",
+    "fecha": "2026-03-14",
+    "cliente": {
+      "nombre": "Sofía Vargas",
+      "correo": "sofia.v@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-06",
+        "nombre": "Festival Electrónico",
+        "precio": 210000,
+        "cantidad": 3
+      }
+    ],
+    "total": 630000
+  },
+  {
+    "codigoTicket": "TK-20260303",
+    "fecha": "2026-03-26",
+    "cliente": {
+      "nombre": "Andrés Molina",
+      "correo": "andres.m@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-08",
+        "nombre": "Festival de Jazz",
+        "precio": 140000,
+        "cantidad": 2
+      }
+    ],
+    "total": 280000
+  },
+  {
+    "codigoTicket": "TK-20260401",
+    "fecha": "2026-04-08",
+    "cliente": {
+      "nombre": "Natalia Herrera",
+      "correo": "natalia.h@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-07",
+        "nombre": "Festival del Café",
+        "precio": 95000,
+        "cantidad": 6
+      }
+    ],
+    "total": 570000
+  },
+  {
+    "codigoTicket": "TK-20260402",
+    "fecha": "2026-04-19",
+    "cliente": {
+      "nombre": "Felipe Castro",
+      "correo": "felipe.c@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-09",
+        "nombre": "Concierto Sinfónico",
+        "precio": 160000,
+        "cantidad": 3
+      }
+    ],
+    "total": 480000
+  },
+  {
+    "codigoTicket": "TK-20260403",
+    "fecha": "2026-04-30",
+    "cliente": {
+      "nombre": "Camila Rojas",
+      "correo": "camila.r@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-05",
+        "nombre": "Stand Up Comedy Night",
+        "precio": 80000,
+        "cantidad": 5
+      }
+    ],
+    "total": 400000
+  },
+  {
+    "codigoTicket": "TK-20260601",
+    "fecha": "2026-06-07",
+    "cliente": {
+      "nombre": "Sebastián López",
+      "correo": "sebastian.l@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-01",
+        "nombre": "Morat Cúcuta En Vivo",
+        "precio": 180000,
+        "cantidad": 4
+      }
+    ],
+    "total": 720000
+  },
+  {
+    "codigoTicket": "TK-20260602",
+    "fecha": "2026-06-18",
+    "cliente": {
+      "nombre": "Valentina Pérez",
+      "correo": "valentina.p@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-02",
+        "nombre": "Rock Fest Bogotá",
+        "precio": 250000,
+        "cantidad": 3
+      }
+    ],
+    "total": 750000
+  },
+  {
+    "codigoTicket": "TK-20260603",
+    "fecha": "2026-06-27",
+    "cliente": {
+      "nombre": "Miguel Sánchez",
+      "correo": "miguel.s@mail.com"
+    },
+    "productos": [
+      {
+        "codigo": "CON-10",
+        "nombre": "Festival Navideño",
+        "precio": 110000,
+        "cantidad": 5
+      }
+    ],
+    "total": 550000
+  }
+]
