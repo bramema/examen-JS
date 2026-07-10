@@ -23,3 +23,5 @@ El administrador puede seleccionar:
 
 - Año del reporte.
 - Mes específico.
+
+![Captura de pantalla](assets/img/reporte_ventas.png)
